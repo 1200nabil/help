@@ -1,0 +1,14 @@
+/* made by nabil */
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+body {
+  margin: 0;
+  background-color: #2e2e2e;
+  font-family: 'Unbounded', sans-serif;
+  color: #fff;
+  cursor: url("/img/asterisk.png"), auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}

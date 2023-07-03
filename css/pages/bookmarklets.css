@@ -1,0 +1,63 @@
+/* made by nabil */
+/* https://discord.gg/jqZt7w6tH4 */
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+body {
+  font-family: 'Unbounded', sans-serif;
+  margin: 0;
+  color: #fff;
+  background-color: #2e2e2e;
+}
+
+.codeblock {
+  padding: 30px 0;
+}
+
+.inner-width {
+  margin: auto;
+  padding: 0 20px;
+}
+
+.inner-width h3 {
+  text-align: center;
+}
+
+code, pre {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.bttn {
+	width: 5rem;
+	font-size: 15px;
+	padding: 10px;
+	font-weight: 50;
+	color: #fff;
+	background: #6b4c8b;
+	cursor: pointer;
+	border: 1px #fff;
+	border-radius: 100px;
+	transition: .6s;
+	display: inline-block;
+	margin: auto;
+	margin-top: 0.2%;
+	font-family: 'Unbounded', sans-serif;
+	cursor: url("/img/asterisk.png"), auto;
+  text-align: center;
+}
+
+.bttn:hover {
+	background: #523a6a;
+	color: white;
+	cursor: url("/img/asterisk.png"), auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+	font-size: 12px;
+	text-decoration: none;
+}

@@ -1,0 +1,80 @@
+<!--
+               __    _ __                              
+   ____  __/|_/ /_  (_) /___ ___/|_____ ___  ___  _____
+  / __ \|    / __ \/ / / __ `/    / __ `__ \/ _ \/ ___/
+ / / / /_ __/ /_/ / / / /_/ /_ __/ / / / / /  __(__  ) 
+/_/ /_/ |/ /_.___/_/_/\__, / |/ /_/ /_/ /_/\___/____/  
+                     /____/                            
+                           💫 best games website
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>settings | nabilgames</title>
+    <meta name="keywords" content="nabilafk, nabil's gameboy, games, nabil's games, nabilsgames, games website, games, run 3, slope, retro bowl, bookmarklets, school hack, ixl hack, edpuzzle hack, bookmarks, cookie clicker.">
+    <meta name="theme-color" content="#6b4c8b">
+    <meta property="og:image:url" content="favicon.ico">
+    <meta property="og:image:secure_url" content="favicon.ico">
+    <meta name="description" content="your first choice for games!">
+      <link rel="icon" href="/favicon.ico" />
+      <link rel="shortcut-icon" href="/favicon.ico" />
+      <link rel="stylesheet" href="/css/pages/settings.css" />
+      <link rel="stylesheet" href="/css/navbar.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/1252d358d0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="nv">
+      <a href="/index.html"><img src="/img/nabilgames.png" alt="logo wasn't loaded!" class="logo"/></a>
+      </div>
+    <div class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+        <div class="dropdown-content">
+          <a href="gameboy.html"><i class="fa-solid fa-gamepad"></i> gameboy</a>
+          <a href="games.html"><i class="fa-solid fa-trophy"></i> games</a>
+          <a href="popular.html"><i class="fa-solid fa-diamond"></i> popular</a>
+          <a href="other.html"><i class="fa-solid fa-cloud"></i> other</a>
+          <a href="changelog.html"><i class="fa-solid fa-th-list"></i> changelog</a>
+          <a href="bookmarklets.html"><i class="fa-solid fa-laptop"></i> bookmarks</a>
+          <a href="developer.html"><i class="fa-solid fa-code"></i> developer</a>
+          <a href="feedback.html"><i class="fa-solid fa-comments"></i> feedback</a>
+          <a href="tos.html"><i class="fa-solid fa-id-card"></i> terms</a>
+          <a href="settings.html"><i class="fa-solid fa-cogs"></i> settings</a>
+        </div>
+      </div> 
+    </div>
+    <h2>cloak tab</h2>
+    <div class="text-center">
+    <div class="buttons">
+      <input id="title" class="input" placeholder="title" onkeyup="setTitle(this.value)" /><br>
+      <input id="icon" class="input" placeholder="favicon" onkeyup="setFavicon(this.value.trim())" />
+    </div>
+    <btn class="button" onclick="resetTab()">reset</btn>
+    <div class="buttons">
+      <br><br>
+      <select name="preset_cloaks" id="presets" title="cloaks">
+        <option value="nabilgames">▼ nabilgames</option>
+        <option value="drive">google drive</option>
+        <option value="classroom">google classroom</option>
+        <option value="edpuzzle">edpuzzle</option>
+        <option value="gmail">gmail</option>
+        <option value="meet">google meets</option>
+        <option value="khan">khan academy</option>
+      </select><btn class="button" onclick="setCloak()">set</btn>
+    </div>
+    </div>
+    <br>
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+      new Crate({
+          server: '1074859568334655488', // server
+          channel: '1081000069362360411' // channel
+      })
+  </script>
+        <script src="/js/cloak.js"></script>
+        <script src="/js/tab.js"></script>
+  </body>
+</html>

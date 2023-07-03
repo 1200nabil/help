@@ -1,0 +1,47 @@
+/* made by nabil */
+/* https://discord.gg/jqZt7w6tH4 */
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+body {
+  margin: 0;
+  background-color: #2e2e2e;
+  font-family: 'Unbounded', sans-serif;
+  color: #fff;
+  cursor: url("/img/asterisk.png"), auto;
+}
+
+li { 
+  color: #6b4c8b; 
+}
+
+li span { 
+  color: #fff; 
+}
+
+h3 {
+  text-align: center;
+}
+
+h2 {
+  color: #6b4c8b;
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #6B4C8B #2e2e2e;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #2e2e2e;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #6B4C8B;
+  border-radius: 10px;
+  border: 3px solid #2e2e2e;
+}

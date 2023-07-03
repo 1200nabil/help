@@ -1,0 +1,290 @@
+/* made by nabil */
+/* based off 3kh0.github.io [v3] */
+/* https://discord.gg/jqZt7w6tH4 */
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+body {
+  font-family: sans-serif;
+  font-size: "25px";
+  color: #ffffff;
+  text-align: left;
+  background-color: #2e2e2e;
+  margin: 0%;
+  cursor: url("/img/asterisk.png"), auto;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.glink {
+  height: 150px;
+  width: 150px;
+}
+
+.gapp {
+  background-color: #2e2e2e;
+  height: 150px;
+  width: 150px;
+  color: #ffffff;
+  border-radius: 40px;
+  transition: 0.4s;
+}
+
+.gapp:hover {
+  box-shadow: 0 0 20px #6b4c8b;   
+}
+
+.gapp span {
+  top: 0;
+  left: -120%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.4s;
+  transform: skewX(10deg);
+}
+
+.gapp:hover span {
+  left: 120%;
+}
+
+.gicon {
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+  cursor: url("/img/asterisk.png"), auto;
+}
+
+.gname {
+  font-size: 0.1px;
+  color: #2e2e2e;
+  cursor: url("/img/asterisk.png"), auto;
+}
+
+.img_wrapper {
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+
+.img_playbutton_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #6b4c8b;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .4s, visibility .4s;
+  font-size: 70px;
+  border-radius: 30px;
+}
+
+.img_wrapper:hover .img_playbutton_layer {
+  visibility: visible;
+  opacity: 0.5;
+  border-radius: 30px;
+}
+
+.img_playbutton {
+  transition: .4s;
+  transform: translateY(1em);
+  border-radius: 30px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+  order: 0;
+  cursor: url("/img/asterisk.png"), auto;
+}
+
+.container {
+  padding: 9px;
+  cursor: url("/img/asterisk.png"), auto;
+}
+
+p {
+  text-decoration: none;
+  font-size: 1.0em;
+  line-height: 1.0em;
+  color: #fff;
+  font-family: 'Unbounded', sans-serif;
+  text-align: center;
+}
+
+b {
+  color: #6b4c8b;
+  font-family: 'Unbounded', sans-serif;
+}
+
+i {
+  color: #fff;
+  font-family: 'Unbounded', sans-serif;
+}
+
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: .8em;
+}
+
+ul.posts {
+  margin: 20px auto 40px;
+  font-size: 1em;
+}
+
+ul.posts li {
+  list-style: none;
+}
+
+h2 {
+  font-family: 'Unbounded', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Unbounded', sans-serif;
+  color: #fff;
+}
+
+h3 {
+  font-family: 'Unbounded', sans-serif;
+  color: #fff;
+}
+
+ul {
+  font-family: 'Unbounded', sans-serif;
+  color: #000;
+}
+
+li {
+  font-family: 'Unbounded', sans-serif;
+  color: #fff
+}
+
+h4 {
+  font-family: 'Unbounded', sans-serif;
+  color: #fff
+}
+
+a {
+  font-family: 'Unbounded', sans-serif;
+  color: #fff;
+}
+
+div {
+  font-family: 'Unbounded', sans-serif;
+  color: #fff
+}
+
+input[type=text] {
+  margin: 8px 0;
+}
+
+input:focus::placeholder {
+  color: transparent;
+  opacity: 0%;
+}
+
+input::placeholder {
+  color: #fff;
+  opacity: 20%;
+  transition: 0.4s;
+}
+
+.search-box {
+  position:absolute;
+  transform:translate(0%, 50%);
+  background:#333;
+  border-radius:40px;
+  height:30px;
+  padding:7px;
+  box-shadow:0px 0px 10px 0px rbg(0,0,0,0.2);
+}
+
+.search-btn {
+  border:none;
+  background: #6b4c8b;
+  border-radius:50%;
+  float:right;
+  display:flex;
+  width:30px;
+  height:30px;
+  justify-content:center;
+  align-items:center;
+  outline:none;
+  transition:0.6s;
+  font-weight:bold;
+  color:#FFFFFF;
+  font-family: 'Unbounded', sans-serif;
+  box-shadow:0px 0px 10px 0px #6b4c8b;
+}
+
+#g4g_search {
+  background:none;
+  border:none;
+  outline:none;
+  float:left;
+  padding:0px;
+  font-size:16px;
+  transition:0.6s;
+  color: #fff;
+  font-weight:bold;
+  line-height:30px;
+  width:0px;
+  font-family: 'Unbounded', sans-serif;
+}
+
+.search-box:hover #g4g_search {
+  width:240px;
+  padding:0 6px;
+}
+
+.search-box:hover .search-btn {
+  background:#6B4C8B;
+  color:#FFFFFF;
+  caret-shape: underscore;
+  box-shadow:0px 5px 20px 0px #6B4C8B;
+}
+
+.codeblock {
+  padding: 30px 0;
+}
+
+.inner-width {
+  margin: auto;
+  padding: 0 76px;
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #6B4C8B #2e2e2e;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #2e2e2e;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #6B4C8B;
+  border-radius: 10px;
+  border: 3px solid #2e2e2e;
+}
