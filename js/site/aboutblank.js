@@ -1,10 +1,9 @@
-// made by devs from axonfs
-// made by ncgaming
+// made by devs from axonfs & nc gaming
 
 var url = document.getElementById("url-target");
 var urlObj = new window.URL(window.location.href);
 document.getElementById("create").onclick = function() {
-  document.getElementById('url-target').value = "https://nabilg.netlify.app/";
+  document.getElementById('url-target').value = "https://1200nabil.github.io/";
   if (url.value.substring(0, 8) !== "https://" && url.value.substring(0, 7) !== "http://") {
     url.value = "https://" + url.value.split("https://").pop();
   } else if (url.value.substring(0, 7) == "http://") {
