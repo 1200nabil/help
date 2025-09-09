@@ -7,4 +7,4 @@
 * custom tab cloaker
 ## links
 *coming soon*
-## got questions? dm me on insta: <a href="https://instagram.com/ruleofbumz">@ruleofbumz</a>
+## got questions? dm me on insta: <a href="https://instagram.com/ruleofbumz">@ind7kuh</a>
